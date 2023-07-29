@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "terminal_cat/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "terminal-cat"
+  spec.name          = "terminal_cat"
   spec.version       = TerminalCat::VERSION
   spec.authors       = ["tmasuyama1114"]
   spec.email         = ["tmasuyama1114@gmail.com"]
